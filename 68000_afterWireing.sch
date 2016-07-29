@@ -8085,146 +8085,6 @@ www.radiohm.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="crystal">
-<description>&lt;b&gt;Crystals and Crystal Resonators&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SG-615">
-<description>&lt;b&gt;SOJ HIGH-FREQUENCY CRYSTAL OSCILLATOR&lt;/b&gt;&lt;p&gt;
-Source: Crystal Oscillator SG-615%20Series.pdf</description>
-<wire x1="-6.875" y1="4.225" x2="6.9" y2="4.225" width="0.2032" layer="21"/>
-<wire x1="6.9" y1="4.225" x2="6.9" y2="-4.225" width="0.2032" layer="21"/>
-<wire x1="6.9" y1="-4.225" x2="-6.875" y2="-4.225" width="0.2032" layer="21"/>
-<wire x1="-6.875" y1="-4.225" x2="-6.875" y2="4.225" width="0.2032" layer="21"/>
-<wire x1="-6.775" y1="-0.625" x2="-6.775" y2="0.625" width="0.2032" layer="51" curve="180"/>
-<smd name="1" x="-2.54" y="-4.4" dx="3" dy="1.2" layer="1" rot="R90"/>
-<smd name="2" x="2.54" y="-4.4" dx="3" dy="1.2" layer="1" rot="R270"/>
-<smd name="3" x="2.54" y="4.4" dx="3" dy="1.2" layer="1" rot="R270"/>
-<smd name="4" x="-2.54" y="4.4" dx="3" dy="1.2" layer="1" rot="R90"/>
-<text x="-7.62" y="-3.175" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="-5.08" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-2.8" y1="4.25" x2="-2.275" y2="4.9" layer="51"/>
-<rectangle x1="2.28" y1="4.25" x2="2.805" y2="4.9" layer="51"/>
-<rectangle x1="2.275" y1="-4.9" x2="2.8" y2="-4.25" layer="51" rot="R180"/>
-<rectangle x1="-2.805" y1="-4.9" x2="-2.28" y2="-4.25" layer="51" rot="R180"/>
-</package>
-</packages>
-<symbols>
-<symbol name="QG1">
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="0" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="0" x2="7.62" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="5.08" x2="2.54" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="6.35" y2="0" width="0.4064" layer="94"/>
-<wire x1="6.35" y1="0" x2="-1.27" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="-5.08" x2="-1.27" y2="-3.175" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="-3.175" x2="-1.27" y2="3.175" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="3.175" x2="-1.27" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-3.81" y1="3.175" x2="-1.27" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="-3.175" x2="-1.27" y2="-3.175" width="0.1524" layer="94"/>
-<wire x1="6.35" y1="0" x2="7.62" y2="0" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="2.54" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-4.826" y1="-0.381" x2="-4.826" y2="0.381" width="0.254" layer="94"/>
-<wire x1="-4.826" y1="0.381" x2="-2.794" y2="0.381" width="0.254" layer="94"/>
-<wire x1="-2.794" y1="0.381" x2="-2.794" y2="-0.381" width="0.254" layer="94"/>
-<wire x1="-4.826" y1="-0.381" x2="-2.794" y2="-0.381" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-1.016" x2="-3.81" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-1.016" x2="-2.54" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="1.016" x2="-3.81" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="-3.175" x2="-3.81" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="1.016" x2="-2.54" y2="1.016" width="0.254" layer="94"/>
-<text x="-7.62" y="8.255" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-6.985" y="-5.842" size="1.524" layer="95">GND</text>
-<text x="-6.985" y="4.318" size="1.524" layer="95">VCC</text>
-<text x="4.064" y="-3.556" size="1.524" layer="95">FO</text>
-<text x="3.81" y="5.588" size="1.524" layer="95">OE</text>
-<pin name="GND" x="-12.7" y="-5.08" visible="pad" length="middle" direction="pwr"/>
-<pin name="VCC" x="-12.7" y="5.08" visible="pad" length="middle" direction="pwr"/>
-<pin name="FO" x="12.7" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
-<pin name="OE" x="12.7" y="5.08" visible="pad" length="middle" direction="in" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SG-615" prefix="QG">
-<description>&lt;b&gt;SOJ HIGH-FREQUENCY CRYSTAL OSCILLATOR&lt;/b&gt;&lt;p&gt;
-Source: Crystal Oscillator SG-615%20Series.pdf</description>
-<gates>
-<gate name="G$1" symbol="QG1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SG-615">
-<connects>
-<connect gate="G$1" pin="FO" pad="3"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="OE" pad="1"/>
-<connect gate="G$1" pin="VCC" pad="4"/>
-</connects>
-<technologies>
-<technology name="PCG">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SG615P-50MHZ 50PPM" constant="no"/>
-<attribute name="OC_FARNELL" value="1216207" constant="no"/>
-<attribute name="OC_NEWARK" value="01M8855" constant="no"/>
-</technology>
-<technology name="PCN">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SG615P-25MHZ 50PPM" constant="no"/>
-<attribute name="OC_FARNELL" value="1216219" constant="no"/>
-<attribute name="OC_NEWARK" value="01M8849" constant="no"/>
-</technology>
-<technology name="PCW">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="PHW">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="PTW">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="SCG">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SG615P-25MHZ 50PPM" constant="no"/>
-<attribute name="OC_FARNELL" value="1216205" constant="no"/>
-<attribute name="OC_NEWARK" value="01M8849" constant="no"/>
-</technology>
-<technology name="SCW">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SG615P-40MHZ 100PPM" constant="no"/>
-<attribute name="OC_FARNELL" value="1216219" constant="no"/>
-<attribute name="OC_NEWARK" value="01M8851" constant="no"/>
-</technology>
-<technology name="SHW">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SG615P-50MHZ 100PPM" constant="no"/>
-<attribute name="OC_FARNELL" value="1216202" constant="no"/>
-<attribute name="OC_NEWARK" value="01M8854" constant="no"/>
-</technology>
-<technology name="STW">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="con-molex">
 <description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -8283,6 +8143,55 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="TTL_OSCILLATOR">
+<packages>
+<package name="TTL_OSCILLATOR">
+<rectangle x1="0" y1="0" x2="20.32" y2="12.7" layer="39"/>
+<rectangle x1="0" y1="0" x2="20.32" y2="12.7" layer="21"/>
+<pad name="P$14" x="2.54" y="2.54" drill="0.8" shape="square"/>
+<pad name="P$8" x="17.78" y="2.54" drill="0.8" shape="square"/>
+<pad name="P$7" x="17.78" y="10.16" drill="0.8" shape="square"/>
+<pad name="P$1" x="2.54" y="10.16" drill="0.8" shape="square"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TTL_OSCILLATOR">
+<wire x1="-22.86" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="2.54" x2="-22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="10.16" x2="-25.4" y2="7.62" width="0.254" layer="94" curve="90"/>
+<wire x1="-25.4" y1="7.62" x2="-25.4" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="5.08" x2="-22.86" y2="2.54" width="0.254" layer="94" curve="90"/>
+<wire x1="-12.7" y1="10.16" x2="-10.16" y2="7.62" width="0.254" layer="94" curve="-90"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-12.7" y2="2.54" width="0.254" layer="94" curve="-90"/>
+<text x="-22.86" y="5.08" size="1.778" layer="95">TTL_OSC</text>
+<pin name="P$1" x="-22.86" y="10.16" length="middle" rot="R90"/>
+<pin name="P$7" x="-12.7" y="10.16" length="middle" rot="R90"/>
+<pin name="P$8" x="-12.7" y="2.54" length="middle" rot="R270"/>
+<pin name="P$14" x="-22.86" y="2.54" length="middle" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TTL_OSCILLATOR">
+<gates>
+<gate name="G$1" symbol="TTL_OSCILLATOR" x="27.94" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="TTL_OSCILLATOR">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$14" pad="P$14"/>
+<connect gate="G$1" pin="P$7" pad="P$7"/>
+<connect gate="G$1" pin="P$8" pad="P$8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8296,9 +8205,9 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 </classes>
 <parts>
 <part name="MC68000" library="micro-mc68000" deviceset="MC68000P" device=""/>
-<part name="2732ODD_EPROM" library="memory" deviceset="2732" device=""/>
-<part name="2732EVEN_EPROM" library="memory" deviceset="2732" device=""/>
-<part name="6821_IO" library="micro-motorola" deviceset="6821" device=""/>
+<part name="2732_EVEN" library="memory" deviceset="2732" device=""/>
+<part name="2732_ODD" library="memory" deviceset="2732" device=""/>
+<part name="6821_ODD" library="micro-motorola" deviceset="6821" device=""/>
 <part name="555TIMER" library="linear" deviceset="*555" device="N" technology="LM"/>
 <part name="VC" library="rcl" deviceset="C-US" device="025-024X044" value="22uF"/>
 <part name="C2" library="rcl" deviceset="C-US" device="025-024X044" value="0.01uF"/>
@@ -8324,19 +8233,25 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <part name="IC1" library="74xx-us" deviceset="74*32" device="N" technology="LS"/>
 <part name="IC2" library="74xx-us" deviceset="74*04" device="N" technology="LS"/>
 <part name="IC3" library="74xx-us" deviceset="74*04" device="N" technology="LS"/>
-<part name="QG1" library="crystal" deviceset="SG-615" device="" technology="PTW"/>
+<part name="U$1" library="TTL_OSCILLATOR" deviceset="TTL_OSCILLATOR" device=""/>
+<part name="P+8" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="-203.2" y="45.72" size="6.4516" layer="91">RESET Circuit</text>
 <text x="-165.1" y="114.3" size="6.4516" layer="91">External Clock Circuit</text>
+<text x="129.54" y="88.9" size="1.778" layer="91">MC68000 D8-D15</text>
+<text x="129.54" y="40.64" size="1.778" layer="91">MC68000 D0-D7</text>
+<text x="76.2" y="86.36" size="1.778" layer="91">MC68000 A1-A12</text>
+<text x="76.2" y="38.1" size="1.778" layer="91">MC68000 A1-A12</text>
+<text x="132.08" y="-60.96" size="1.778" layer="91">MC68000 A0-D7</text>
 </plain>
 <instances>
 <instance part="MC68000" gate="G$1" x="-63.5" y="7.62"/>
-<instance part="2732ODD_EPROM" gate="A" x="114.3" y="78.74"/>
-<instance part="2732EVEN_EPROM" gate="A" x="114.3" y="30.48"/>
-<instance part="6821_IO" gate="A" x="111.76" y="-45.72"/>
+<instance part="2732_EVEN" gate="A" x="114.3" y="78.74"/>
+<instance part="2732_ODD" gate="A" x="114.3" y="30.48"/>
+<instance part="6821_ODD" gate="A" x="111.76" y="-45.72"/>
 <instance part="555TIMER" gate="A" x="-167.64" y="2.54"/>
 <instance part="VC" gate="G$1" x="-198.12" y="5.08"/>
 <instance part="C2" gate="G$1" x="-187.96" y="-2.54"/>
@@ -8356,7 +8271,7 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <instance part="P+4" gate="VCC" x="-182.88" y="30.48"/>
 <instance part="P+5" gate="VCC" x="-149.86" y="33.02"/>
 <instance part="P+6" gate="VCC" x="-205.74" y="35.56"/>
-<instance part="P+7" gate="VCC" x="-132.08" y="101.6"/>
+<instance part="P+7" gate="VCC" x="-175.26" y="101.6"/>
 <instance part="SUPPLY4" gate="GND" x="-132.08" y="66.04"/>
 <instance part="X1" gate="-1" x="-10.16" y="109.22" rot="R90"/>
 <instance part="X1" gate="-2" x="-7.62" y="109.22" rot="R90"/>
@@ -8373,8 +8288,9 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <instance part="IC3" gate="B" x="33.02" y="-5.08"/>
 <instance part="IC3" gate="C" x="60.96" y="25.4"/>
 <instance part="IC1" gate="B" x="53.34" y="63.5"/>
-<instance part="QG1" gate="G$1" x="-119.38" y="81.28"/>
-<instance part="6821_IO" gate="P" x="106.68" y="-71.12"/>
+<instance part="6821_ODD" gate="P" x="106.68" y="-71.12"/>
+<instance part="U$1" gate="G$1" x="-139.7" y="76.2"/>
+<instance part="P+8" gate="VCC" x="-106.68" y="53.34"/>
 </instances>
 <busses>
 </busses>
@@ -8388,7 +8304,7 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <junction x="-35.56" y="25.4"/>
 <wire x1="-35.56" y1="-63.5" x2="88.9" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="-63.5" x2="88.9" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="6821_IO" gate="A" pin="R/!W"/>
+<pinref part="6821_ODD" gate="A" pin="R/!W"/>
 <wire x1="88.9" y1="-33.02" x2="96.52" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="C" pin="I"/>
 </segment>
@@ -8427,7 +8343,7 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <junction x="38.1" y="20.32"/>
 <wire x1="48.26" y1="2.54" x2="88.9" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="2.54" x2="88.9" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="6821_IO" gate="A" pin="CS2"/>
+<pinref part="6821_ODD" gate="A" pin="CS2"/>
 <wire x1="88.9" y1="-20.32" x2="96.52" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="C" pin="I1"/>
 </segment>
@@ -8468,14 +8384,14 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="6821_IO" gate="A" pin="CS1"/>
+<pinref part="6821_ODD" gate="A" pin="CS1"/>
 <wire x1="96.52" y1="-17.78" x2="76.2" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="A" pin="O"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="6821_IO" gate="A" pin="CS0"/>
+<pinref part="6821_ODD" gate="A" pin="CS0"/>
 <wire x1="96.52" y1="-15.24" x2="83.82" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="-15.24" x2="83.82" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="-5.08" x2="43.18" y2="-5.08" width="0.1524" layer="91"/>
@@ -8537,15 +8453,17 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 </segment>
 <segment>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
-<wire x1="-132.08" y1="76.2" x2="-132.08" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="QG1" gate="G$1" pin="GND"/>
+<wire x1="-152.4" y1="91.44" x2="-132.08" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="91.44" x2="-132.08" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="P$7"/>
+<wire x1="-152.4" y1="91.44" x2="-152.4" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X1" gate="-2" pin="S"/>
 <wire x1="-7.62" y1="106.68" x2="-7.62" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="6821_IO" gate="P" pin="VSS"/>
+<pinref part="6821_ODD" gate="P" pin="VSS"/>
 <wire x1="106.68" y1="-78.74" x2="106.68" y2="-83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8626,7 +8544,7 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <junction x="-99.06" y="-33.02"/>
 <wire x1="-96.52" y1="-76.2" x2="93.98" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="-76.2" x2="93.98" y2="-38.1" width="0.1524" layer="91"/>
-<pinref part="6821_IO" gate="A" pin="RESET"/>
+<pinref part="6821_ODD" gate="A" pin="RESET"/>
 <wire x1="93.98" y1="-38.1" x2="96.52" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="E" pin="O"/>
 </segment>
@@ -8665,16 +8583,18 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
-<wire x1="-132.08" y1="86.36" x2="-132.08" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-175.26" y1="73.66" x2="-175.26" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="P+7" gate="VCC" pin="VCC"/>
-<pinref part="QG1" gate="G$1" pin="VCC"/>
+<wire x1="-162.56" y1="73.66" x2="-175.26" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="P$14"/>
+<wire x1="-162.56" y1="73.66" x2="-162.56" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X1" gate="-1" pin="S"/>
 <wire x1="-10.16" y1="106.68" x2="-10.16" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="6821_IO" gate="P" pin="VCC"/>
+<pinref part="6821_ODD" gate="P" pin="VCC"/>
 <wire x1="106.68" y1="-63.5" x2="106.68" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -8683,16 +8603,43 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-149.86" y1="-5.08" x2="-149.86" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="VCC" pin="VCC"/>
 </segment>
+<segment>
+<pinref part="MC68000" gate="G$1" pin="BR"/>
+<wire x1="-81.28" y1="33.02" x2="-106.68" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="P+8" gate="VCC" pin="VCC"/>
+<wire x1="-106.68" y1="33.02" x2="-106.68" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="MC68000" gate="G$1" pin="BGACK"/>
+<wire x1="-106.68" y1="48.26" x2="-106.68" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="30.48" x2="-106.68" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="30.48" x2="-106.68" y2="33.02" width="0.1524" layer="91"/>
+<junction x="-106.68" y="33.02"/>
+<pinref part="MC68000" gate="G$1" pin="IPL0"/>
+<wire x1="-81.28" y1="20.32" x2="-83.82" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="20.32" x2="-83.82" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="MC68000" gate="G$1" pin="IPL1"/>
+<wire x1="-83.82" y1="17.78" x2="-81.28" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="17.78" x2="-83.82" y2="15.24" width="0.1524" layer="91"/>
+<junction x="-83.82" y="17.78"/>
+<pinref part="MC68000" gate="G$1" pin="IPL2"/>
+<wire x1="-83.82" y1="15.24" x2="-81.28" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="17.78" x2="-106.68" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="17.78" x2="-106.68" y2="30.48" width="0.1524" layer="91"/>
+<junction x="-106.68" y="30.48"/>
+<pinref part="MC68000" gate="G$1" pin="BERR"/>
+<wire x1="-81.28" y1="48.26" x2="-106.68" y2="48.26" width="0.1524" layer="91"/>
+<junction x="-106.68" y="48.26"/>
+</segment>
 </net>
 <net name="N$26" class="0">
 <segment>
-<wire x1="-109.22" y1="81.28" x2="-106.68" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="81.28" x2="-88.9" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="81.28" x2="-88.9" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="MC68000" gate="G$1" pin="CLK"/>
 <wire x1="-88.9" y1="53.34" x2="-81.28" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="QG1" gate="G$1" pin="FO"/>
-<junction x="-106.68" y="81.28"/>
+<wire x1="-152.4" y1="73.66" x2="-144.78" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-144.78" y1="73.66" x2="-144.78" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-144.78" y1="81.28" x2="-88.9" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="P$8"/>
+<wire x1="-152.4" y1="73.66" x2="-152.4" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -8723,14 +8670,14 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="2732ODD_EPROM" gate="A" pin="!CE"/>
+<pinref part="2732_EVEN" gate="A" pin="!CE"/>
 <wire x1="66.04" y1="63.5" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="B" pin="O"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="2732EVEN_EPROM" gate="A" pin="!CE"/>
+<pinref part="2732_ODD" gate="A" pin="!CE"/>
 <wire x1="66.04" y1="43.18" x2="91.44" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="43.18" x2="91.44" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="15.24" x2="99.06" y2="15.24" width="0.1524" layer="91"/>
@@ -8741,11 +8688,11 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <segment>
 <wire x1="71.12" y1="25.4" x2="76.2" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="25.4" x2="76.2" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="2732EVEN_EPROM" gate="A" pin="!OE!/VPP"/>
+<pinref part="2732_ODD" gate="A" pin="!OE!/VPP"/>
 <wire x1="76.2" y1="12.7" x2="99.06" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="25.4" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
 <junction x="76.2" y="25.4"/>
-<pinref part="2732ODD_EPROM" gate="A" pin="!OE!/VPP"/>
+<pinref part="2732_EVEN" gate="A" pin="!OE!/VPP"/>
 <wire x1="76.2" y1="60.96" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="C" pin="O"/>
 </segment>
@@ -8756,11 +8703,11 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-81.28" y1="-2.54" x2="-86.36" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732EVEN_EPROM" gate="A" pin="O0"/>
+<pinref part="2732_ODD" gate="A" pin="O0"/>
 <wire x1="124.46" y1="48.26" x2="127" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="6821_IO" gate="A" pin="D0"/>
+<pinref part="6821_ODD" gate="A" pin="D0"/>
 <wire x1="127" y1="-53.34" x2="129.54" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8770,11 +8717,11 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-81.28" y1="-5.08" x2="-86.36" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732EVEN_EPROM" gate="A" pin="O1"/>
+<pinref part="2732_ODD" gate="A" pin="O1"/>
 <wire x1="124.46" y1="45.72" x2="127" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="6821_IO" gate="A" pin="D1"/>
+<pinref part="6821_ODD" gate="A" pin="D1"/>
 <wire x1="127" y1="-55.88" x2="129.54" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8784,11 +8731,11 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-81.28" y1="-7.62" x2="-86.36" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732EVEN_EPROM" gate="A" pin="O2"/>
+<pinref part="2732_ODD" gate="A" pin="O2"/>
 <wire x1="124.46" y1="43.18" x2="127" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="6821_IO" gate="A" pin="D2"/>
+<pinref part="6821_ODD" gate="A" pin="D2"/>
 <wire x1="127" y1="-58.42" x2="129.54" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8798,11 +8745,11 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-81.28" y1="-10.16" x2="-86.36" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732EVEN_EPROM" gate="A" pin="O3"/>
+<pinref part="2732_ODD" gate="A" pin="O3"/>
 <wire x1="124.46" y1="40.64" x2="127" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="6821_IO" gate="A" pin="D3"/>
+<pinref part="6821_ODD" gate="A" pin="D3"/>
 <wire x1="127" y1="-60.96" x2="129.54" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8812,11 +8759,11 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-81.28" y1="-12.7" x2="-86.36" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732EVEN_EPROM" gate="A" pin="O4"/>
+<pinref part="2732_ODD" gate="A" pin="O4"/>
 <wire x1="124.46" y1="38.1" x2="127" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="6821_IO" gate="A" pin="D4"/>
+<pinref part="6821_ODD" gate="A" pin="D4"/>
 <wire x1="127" y1="-63.5" x2="129.54" y2="-63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8826,11 +8773,11 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-81.28" y1="-15.24" x2="-86.36" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732EVEN_EPROM" gate="A" pin="O5"/>
+<pinref part="2732_ODD" gate="A" pin="O5"/>
 <wire x1="124.46" y1="35.56" x2="127" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="6821_IO" gate="A" pin="D5"/>
+<pinref part="6821_ODD" gate="A" pin="D5"/>
 <wire x1="127" y1="-66.04" x2="129.54" y2="-66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8840,11 +8787,11 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-81.28" y1="-17.78" x2="-86.36" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732EVEN_EPROM" gate="A" pin="O6"/>
+<pinref part="2732_ODD" gate="A" pin="O6"/>
 <wire x1="124.46" y1="33.02" x2="127" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="6821_IO" gate="A" pin="D6"/>
+<pinref part="6821_ODD" gate="A" pin="D6"/>
 <wire x1="127" y1="-68.58" x2="129.54" y2="-68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8854,11 +8801,11 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-81.28" y1="-20.32" x2="-86.36" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732EVEN_EPROM" gate="A" pin="O7"/>
+<pinref part="2732_ODD" gate="A" pin="O7"/>
 <wire x1="124.46" y1="30.48" x2="127" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="6821_IO" gate="A" pin="D7"/>
+<pinref part="6821_ODD" gate="A" pin="D7"/>
 <wire x1="127" y1="-71.12" x2="129.54" y2="-71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8868,49 +8815,51 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-81.28" y1="-22.86" x2="-86.36" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732ODD_EPROM" gate="A" pin="O0"/>
+<pinref part="2732_EVEN" gate="A" pin="O0"/>
 <wire x1="124.46" y1="96.52" x2="127" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A1" class="0">
 <segment>
-<pinref part="2732ODD_EPROM" gate="A" pin="A0"/>
+<pinref part="2732_EVEN" gate="A" pin="A0"/>
 <wire x1="99.06" y1="96.52" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="MC68000" gate="G$1" pin="A1"/>
-<wire x1="-48.26" y1="15.24" x2="-45.72" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="2732EVEN_EPROM" gate="A" pin="A0"/>
+<pinref part="2732_ODD" gate="A" pin="A0"/>
 <wire x1="99.06" y1="48.26" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="6821_IO" gate="A" pin="RS0"/>
-<wire x1="96.52" y1="-25.4" x2="91.44" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="6821_ODD" gate="A" pin="RS0"/>
+<wire x1="96.52" y1="-25.4" x2="63.5" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-25.4" x2="63.5" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-83.82" x2="-25.4" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="-83.82" x2="-25.4" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="MC68000" gate="G$1" pin="A1"/>
+<wire x1="-25.4" y1="15.24" x2="-48.26" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A2" class="0">
 <segment>
-<pinref part="2732ODD_EPROM" gate="A" pin="A1"/>
+<pinref part="2732_EVEN" gate="A" pin="A1"/>
 <wire x1="99.06" y1="93.98" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="MC68000" gate="G$1" pin="A2"/>
-<wire x1="-48.26" y1="12.7" x2="-45.72" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="2732EVEN_EPROM" gate="A" pin="A1"/>
+<pinref part="2732_ODD" gate="A" pin="A1"/>
 <wire x1="99.06" y1="45.72" x2="96.52" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="6821_IO" gate="A" pin="RS1"/>
-<wire x1="96.52" y1="-27.94" x2="91.44" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="6821_ODD" gate="A" pin="RS1"/>
+<wire x1="96.52" y1="-27.94" x2="68.58" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-27.94" x2="68.58" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-86.36" x2="-27.94" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-86.36" x2="-27.94" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="MC68000" gate="G$1" pin="A2"/>
+<wire x1="-27.94" y1="12.7" x2="-48.26" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A3" class="0">
 <segment>
-<pinref part="2732ODD_EPROM" gate="A" pin="A2"/>
+<pinref part="2732_EVEN" gate="A" pin="A2"/>
 <wire x1="99.06" y1="91.44" x2="96.52" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -8918,13 +8867,13 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-48.26" y1="10.16" x2="-45.72" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732EVEN_EPROM" gate="A" pin="A2"/>
+<pinref part="2732_ODD" gate="A" pin="A2"/>
 <wire x1="99.06" y1="43.18" x2="96.52" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A4" class="0">
 <segment>
-<pinref part="2732ODD_EPROM" gate="A" pin="A3"/>
+<pinref part="2732_EVEN" gate="A" pin="A3"/>
 <wire x1="99.06" y1="88.9" x2="96.52" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -8932,7 +8881,7 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-48.26" y1="7.62" x2="-45.72" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732EVEN_EPROM" gate="A" pin="A3"/>
+<pinref part="2732_ODD" gate="A" pin="A3"/>
 <wire x1="99.06" y1="40.64" x2="96.52" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8942,11 +8891,11 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-48.26" y1="5.08" x2="-45.72" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732ODD_EPROM" gate="A" pin="A4"/>
+<pinref part="2732_EVEN" gate="A" pin="A4"/>
 <wire x1="99.06" y1="86.36" x2="96.52" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732EVEN_EPROM" gate="A" pin="A4"/>
+<pinref part="2732_ODD" gate="A" pin="A4"/>
 <wire x1="99.06" y1="38.1" x2="96.52" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8956,11 +8905,11 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-48.26" y1="2.54" x2="-45.72" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732ODD_EPROM" gate="A" pin="A5"/>
+<pinref part="2732_EVEN" gate="A" pin="A5"/>
 <wire x1="99.06" y1="83.82" x2="96.52" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732EVEN_EPROM" gate="A" pin="A5"/>
+<pinref part="2732_ODD" gate="A" pin="A5"/>
 <wire x1="99.06" y1="35.56" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8970,11 +8919,11 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-48.26" y1="0" x2="-45.72" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732ODD_EPROM" gate="A" pin="A6"/>
+<pinref part="2732_EVEN" gate="A" pin="A6"/>
 <wire x1="99.06" y1="81.28" x2="96.52" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732EVEN_EPROM" gate="A" pin="A6"/>
+<pinref part="2732_ODD" gate="A" pin="A6"/>
 <wire x1="99.06" y1="33.02" x2="96.52" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8984,11 +8933,11 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-48.26" y1="-2.54" x2="-45.72" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732ODD_EPROM" gate="A" pin="A7"/>
+<pinref part="2732_EVEN" gate="A" pin="A7"/>
 <wire x1="99.06" y1="78.74" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732EVEN_EPROM" gate="A" pin="A7"/>
+<pinref part="2732_ODD" gate="A" pin="A7"/>
 <wire x1="99.06" y1="30.48" x2="96.52" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8998,11 +8947,11 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-48.26" y1="-5.08" x2="-45.72" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732ODD_EPROM" gate="A" pin="A8"/>
+<pinref part="2732_EVEN" gate="A" pin="A8"/>
 <wire x1="99.06" y1="76.2" x2="96.52" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732EVEN_EPROM" gate="A" pin="A8"/>
+<pinref part="2732_ODD" gate="A" pin="A8"/>
 <wire x1="99.06" y1="27.94" x2="96.52" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9012,11 +8961,11 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-48.26" y1="-7.62" x2="-45.72" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732ODD_EPROM" gate="A" pin="A9"/>
+<pinref part="2732_EVEN" gate="A" pin="A9"/>
 <wire x1="99.06" y1="73.66" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732EVEN_EPROM" gate="A" pin="A9"/>
+<pinref part="2732_ODD" gate="A" pin="A9"/>
 <wire x1="99.06" y1="25.4" x2="96.52" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9026,11 +8975,11 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-48.26" y1="-10.16" x2="-45.72" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732ODD_EPROM" gate="A" pin="A10"/>
+<pinref part="2732_EVEN" gate="A" pin="A10"/>
 <wire x1="99.06" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732EVEN_EPROM" gate="A" pin="A10"/>
+<pinref part="2732_ODD" gate="A" pin="A10"/>
 <wire x1="99.06" y1="22.86" x2="96.52" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9040,11 +8989,11 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-48.26" y1="-12.7" x2="-45.72" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732ODD_EPROM" gate="A" pin="A11"/>
+<pinref part="2732_EVEN" gate="A" pin="A11"/>
 <wire x1="99.06" y1="68.58" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732EVEN_EPROM" gate="A" pin="A11"/>
+<pinref part="2732_ODD" gate="A" pin="A11"/>
 <wire x1="99.06" y1="20.32" x2="96.52" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9054,7 +9003,7 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-81.28" y1="-25.4" x2="-86.36" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732ODD_EPROM" gate="A" pin="O1"/>
+<pinref part="2732_EVEN" gate="A" pin="O1"/>
 <wire x1="124.46" y1="93.98" x2="127" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9064,7 +9013,7 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-81.28" y1="-27.94" x2="-86.36" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732ODD_EPROM" gate="A" pin="O2"/>
+<pinref part="2732_EVEN" gate="A" pin="O2"/>
 <wire x1="124.46" y1="91.44" x2="127" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9074,7 +9023,7 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-81.28" y1="-30.48" x2="-86.36" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732ODD_EPROM" gate="A" pin="O3"/>
+<pinref part="2732_EVEN" gate="A" pin="O3"/>
 <wire x1="124.46" y1="88.9" x2="127" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9084,7 +9033,7 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-81.28" y1="-33.02" x2="-86.36" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732ODD_EPROM" gate="A" pin="O4"/>
+<pinref part="2732_EVEN" gate="A" pin="O4"/>
 <wire x1="124.46" y1="86.36" x2="127" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9094,7 +9043,7 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-81.28" y1="-35.56" x2="-86.36" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732ODD_EPROM" gate="A" pin="O5"/>
+<pinref part="2732_EVEN" gate="A" pin="O5"/>
 <wire x1="124.46" y1="83.82" x2="127" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9104,7 +9053,7 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-81.28" y1="-38.1" x2="-86.36" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732ODD_EPROM" gate="A" pin="O6"/>
+<pinref part="2732_EVEN" gate="A" pin="O6"/>
 <wire x1="124.46" y1="81.28" x2="127" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9114,7 +9063,7 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-81.28" y1="-40.64" x2="-86.36" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="2732ODD_EPROM" gate="A" pin="O7"/>
+<pinref part="2732_EVEN" gate="A" pin="O7"/>
 <wire x1="124.46" y1="78.74" x2="127" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9125,7 +9074,7 @@ Source: Crystal Oscillator SG-615%20Series.pdf</description>
 <wire x1="-43.18" y1="40.64" x2="-43.18" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="-53.34" x2="83.82" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="-53.34" x2="83.82" y2="-35.56" width="0.1524" layer="91"/>
-<pinref part="6821_IO" gate="A" pin="E"/>
+<pinref part="6821_ODD" gate="A" pin="E"/>
 <wire x1="96.52" y1="-35.56" x2="83.82" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
